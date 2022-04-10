@@ -1,0 +1,39 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+<androidx.appcompat.widget.AppCompatButton
+
+    android:text="User Login"
+    android:textSize="10dp"
+    android:id="@+id/butuserlogin"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+</androidx.appcompat.widget.AppCompatButton>
+
+<androidx.appcompat.widget.AppCompatButton
+
+android:text="Test Center Login"
+android:textSize="10dp"
+android:id="@+id/buttestcenter"
+android:layout_margin="10dp"
+android:background="@color/white"
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+</androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+    </LinearLayout>

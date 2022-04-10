@@ -1,0 +1,38 @@
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Aadar Number"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/emailth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter Aadar Number">
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spin"
+        android:entries="@array/Status"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:padding="10dp"> </Spinner>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/subbuttest"
+        android:padding="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
